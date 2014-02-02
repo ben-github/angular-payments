@@ -1,6 +1,6 @@
 # Angular Payments
 
-An Angular Module that provides directives for *formatting* and *validating* forms related to payments. Also, it ships with a directive that makes it easy to integrate with Stripe's wonderful stripe.js.
+An Angular Module that provides directives for *formatting* and *validating* forms related to payments. Based on laurihy/angular-payments but stripping out stripe.js stuff
 
 ### Credits
 
@@ -14,19 +14,9 @@ All I did was port and combine these great libraries. Cheers!
 
 To use Angular Payments, add angularPayments as a dependency to your AngularJS module or app.
 
-Angular Payments it self depends on 2 libraries:
+Angular Payments it self depends on 1 libraries:
 
 1. Angular (d'oh)
-2. Stripe.js (https://stripe.com/docs/stripe.js)
-
-Be sure to also configure Stripe by setting your publishable key, something like:
-
-	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-	<script>
-		Stripe.setPublishableKey('YOUR_PUBLISHABLE_KEY');
-	</script>
-
-The module ships 3 directives, all of which should be added as attributes to elements. 
 
 ### paymentsValidate
 
